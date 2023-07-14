@@ -71,9 +71,9 @@
 	**2.新建工作区并导入示例demo
 	**3.编译
 	   ---> 如果编译报错，请查看编译链是否安装，配置成功。
-	   ![整体编译链](整体编译链是否安装.png)
-	   ![工程编译链](工程构建工具链.png)
-	   ![工程编译链2](工程构建工具链2.png)
+![整体编译链](整体编译链是否安装.png)
+![工程编译链](工程构建工具链.png)
+![工程编译链2](工程构建工具链2.png)
 	**4.把 debug 生成的如下文件拷贝到 sd 卡上，用于在 uboot 进行 CM33 工程调用。
 	**5.插入SD卡会出现
 	
@@ -169,7 +169,7 @@
 	
 	**1.下载：03-Tools/Toolchains/sdk.tar.bz2.上传到自己的 Ubtuntu 虚拟环境。
 	**2.安装并测试SDK，通过FileZilla将03-Tools/Toolchains/sdk.tar.bz2.上传到自己的虚拟机。使用tar 解压缩并安装 core_full。
-		![FileZilla](使用FileZilla传输.png)
+![FileZilla](使用FileZilla传输.png)
 		安装指令：
 		 ./poky-glibc-x86_64-myir-image-full-aarch64-myir-yg2lx-toolchain-3.1.20.sh
 	**3.选择安装路径（默认opt/poky/3.1.20，也可以根据提示自己选择合适的目录）	
